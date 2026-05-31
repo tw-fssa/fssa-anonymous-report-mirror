@@ -1,0 +1,13 @@
+{
+  "name": "fssa-anonymous-report-mirror",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+
