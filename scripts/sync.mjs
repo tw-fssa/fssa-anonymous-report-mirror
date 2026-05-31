@@ -49,7 +49,7 @@ async function getJson(route) {
   const response = await fetch(url, {
     headers: {
       accept: "application/json",
-      "user-agent": "tw-fssa-public-mirror/0.1",
+      "user-agent": "tw-fssa-public-mirror/0.2",
     },
   });
   if (!response.ok) {
@@ -174,4 +174,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
