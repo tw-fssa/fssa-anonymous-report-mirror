@@ -1,9 +1,9 @@
 {
   "algorithm": "rfc6962",
-  "last_synced_at": "2026-06-01T19:11:38.542Z",
+  "last_synced_at": "2026-06-02T13:02:02.786Z",
   "privacy": "public-redacted",
-  "root_hash": "fbec39f389c853b350353db649de6b58bf17d4e988320c11da5127cced2a0b9e",
+  "root_hash": "ac558c7e39ea891ee241d3dcf450cf80594411595dab27161c435f80e8ea4c74",
   "service": "fssa-anonymous-report",
   "source": "https://fssh-anonymous-report.vic0407lu.workers.dev",
-  "tree_size": 1
+  "tree_size": 2
 }
