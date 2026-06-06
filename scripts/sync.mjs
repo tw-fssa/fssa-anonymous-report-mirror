@@ -115,7 +115,9 @@ async function main() {
   const entries = await fetchEntries(treeSize);
   assertContiguous(entries, treeSize);
 
-  const objectsToCheck = [size, stats, root, ...entries];
+  const keysResponse = await getJson("/log/keys");
+
+  const objectsToCheck = [size, stats, root, keysResponse, ...entries];
   objectsToCheck.forEach((object, index) => assertMirrorSafe(object, `public_response_${index}`));
 
   for (const entry of entries) {
@@ -134,6 +136,16 @@ async function main() {
       consistency
     );
   }
+
+  const publicKeys = Array.isArray(keysResponse.keys) ? keysResponse.keys : [];
+  const keysDoc = {
+    service: SERVICE,
+    source: SOURCE,
+    privacy: "public-redacted",
+    synced_at: syncedAt,
+    year: Number(syncDate.slice(0, 4)),
+    keys: publicKeys,
+  };
 
   const manifest = {
     service: SERVICE,
@@ -155,6 +167,7 @@ async function main() {
     stats,
     root,
     consistency,
+    keys: publicKeys,
     entries: {
       count: entries.length,
       first_idx: entries[0]?.idx || null,
@@ -165,9 +178,11 @@ async function main() {
   await writeJson("manifest.json", manifest);
   await writeJson("roots/latest.json", root);
   await writeJson(`roots/${syncDate}.json`, root);
+  await writeJson("keys/latest.json", keysDoc);
+  await writeJson(`keys/${keysDoc.year}.json`, keysDoc);
   await writeJson("snapshots/latest.json", snapshot);
 
-  console.log(`Mirrored ${treeSize} public log entries from ${SOURCE}`);
+  console.log(`Mirrored ${treeSize} public log entries and ${publicKeys.length} public keys from ${SOURCE}`);
 }
 
 main().catch((error) => {

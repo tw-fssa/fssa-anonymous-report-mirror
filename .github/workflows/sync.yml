@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add manifest.json entries roots proofs snapshots README.md
+          git add manifest.json entries roots proofs snapshots keys README.md
           if git diff --cached --quiet; then
             echo "No mirror changes to commit."
           else

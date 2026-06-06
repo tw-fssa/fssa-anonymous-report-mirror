@@ -1,0 +1,42 @@
+{
+  "keys": [
+    {
+      "algorithm": "Ed25519",
+      "fingerprint": "1ac1c1620560a0e390890a39f6bb6496",
+      "pubkey": "qxhZ5wMIv3HHHdxajaWytmETZ4bB1_wxoOKHkHXAsQc",
+      "purpose": "receipt",
+      "revoked": false,
+      "succession_log_index": null,
+      "succession_predecessor": null,
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "algorithm": "Ed25519",
+      "fingerprint": "6f333fd49c9bd92880d32b01bbdb3f59",
+      "pubkey": "5EtpNtBR0fimsTYY-TFjxZrf0boNMv35LCoVH4GvlS0",
+      "purpose": "decision",
+      "revoked": false,
+      "succession_log_index": null,
+      "succession_predecessor": null,
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "algorithm": "X25519",
+      "fingerprint": "246396d887a434fea7e8490e1dfced07",
+      "pubkey": "sNpiQGeJVwksXyWyafAw5NwUL1a5LM1zFeo0Fi_GGjI",
+      "purpose": "content",
+      "revoked": false,
+      "succession_log_index": null,
+      "succession_predecessor": null,
+      "valid_from": null,
+      "valid_until": null
+    }
+  ],
+  "privacy": "public-redacted",
+  "service": "fssa-anonymous-report",
+  "source": "https://fssh-anonymous-report.vic0407lu.workers.dev",
+  "synced_at": "2026-06-06T15:05:08.682Z",
+  "year": 2026
+}
