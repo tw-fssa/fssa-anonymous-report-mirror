@@ -2,11 +2,9 @@
   "algorithm": "rfc6962",
   "consistency": {
     "algorithm": "rfc6962",
-    "from_root": "ac558c7e39ea891ee241d3dcf450cf80594411595dab27161c435f80e8ea4c74",
-    "from_tree_size": 2,
-    "proof": [
-      "0d217ebbc940d43d85b9a61c4469858e072abb8fa44af6869153eae775184157"
-    ],
+    "from_root": "98cec189a0ef7728c034e2515c2f51b99099cddec38f6350414152b4ad93acca",
+    "from_tree_size": 3,
+    "proof": [],
     "to_root": "98cec189a0ef7728c034e2515c2f51b99099cddec38f6350414152b4ad93acca",
     "to_tree_size": 3
   },
@@ -55,7 +53,7 @@
     "root_hash": "98cec189a0ef7728c034e2515c2f51b99099cddec38f6350414152b4ad93acca",
     "signature": "6631ec52571628ad99961a4e47cbd40ccfe21c9b4023e560696624ff0b44d56c761a37f0bc541856d057e5ed91dac1dd5d091dae61f0bd8207e8b2b532abf002",
     "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-    "timestamp": "2026-06-08T21:17:12.900Z",
+    "timestamp": "2026-06-09T08:52:57.353Z",
     "tree_size": 3
   },
   "service": "fssa-anonymous-report",
@@ -74,5 +72,5 @@
     "week_starts_on": "monday",
     "week_timezone": "Asia/Taipei"
   },
-  "synced_at": "2026-06-08T21:17:11.277Z"
+  "synced_at": "2026-06-09T08:52:55.979Z"
 }
