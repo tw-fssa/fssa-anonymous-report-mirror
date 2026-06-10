@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
-const SOURCE = process.env.SOURCE_API || "https://fssh-anonymous-report.vic0407lu.workers.dev";
+const SOURCE = process.env.SOURCE_API || "https://report.fssakh.org";
 const PAGE_LIMIT = 500;
 const ALGORITHM = "rfc6962";
 const SERVICE = "fssa-anonymous-report";

@@ -18,6 +18,9 @@ concurrency:
   group: sync-public-transparency-log
   cancel-in-progress: false
 
+env:
+  SOURCE_API: "https://report.fssakh.org"
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -31,7 +34,7 @@ jobs:
           node-version: "22"
 
       - name: Probe public Worker health
-        run: node -e "const r = await fetch('https://fssh-anonymous-report.vic0407lu.workers.dev/api/health'); if (!r.ok) throw new Error(await r.text()); console.log(await r.text());"
+        run: node -e "const r = await fetch(process.env.SOURCE_API + '/api/health'); if (!r.ok) throw new Error(await r.text()); console.log(await r.text());"
 
       - name: Sync from public Worker API
         run: node scripts/sync.mjs
