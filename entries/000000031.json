@@ -1,0 +1,15 @@
+{
+  "entry_type": "decision",
+  "idx": 31,
+  "leaf_data": {
+    "commit_digest": "00cf8bf309ac1e5bd3fa655bbd780d8a4177e6ec9249d6ef5b810566cafb0804",
+    "decision_text_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "decision_type": "accepted",
+    "signature": "b199453e9b59f388600dd9121b8efa178447d87151adec7aa2f43c7df6bfd4a8e6b560326c2acc343bdd59af76a17b997fd0d02048e79bd60361f6c52f92310a",
+    "signing_key_fp": "6f333fd49c9bd92880d32b01bbdb3f59",
+    "timestamp": "2026-09-27T18:27:43.791Z",
+    "type": "decision"
+  },
+  "leaf_hash": "b1b14a3821cd7e2e9a4e25da219f4e0c1cc2ac948e6947ea0bbfeb64aa0082d0",
+  "timestamp": "2026-09-27T18:27:43.791Z"
+}
