@@ -1,0 +1,13 @@
+{
+  "entry_type": "submission",
+  "idx": 28,
+  "leaf_data": {
+    "commit_digest": "613a7cf7ad9bba12bdd7e0a95bc0481491c55ffa09e409a7f9d88200480e32b9",
+    "server_timestamp": "2026-09-27T17:44:05.191Z",
+    "signature": "e965a73cd09b5b7f2a6adc253f93b1fb076ee2cae80020357ff4dbe810b7587b1172067dba8adec714f912a0ae6c620deb20583eb1067a7ad60d4872c9c76603",
+    "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
+    "type": "submission"
+  },
+  "leaf_hash": "4cd1cb174252f298dbbfa7b1bf64462e6ab0c3474521311a75c98cd454343f63",
+  "timestamp": "2026-09-27T17:44:05.191Z"
+}

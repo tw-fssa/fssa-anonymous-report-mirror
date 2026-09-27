@@ -1,0 +1,14 @@
+{
+  "entry_type": "reply",
+  "idx": 25,
+  "leaf_data": {
+    "commit_digest": "00cf8bf309ac1e5bd3fa655bbd780d8a4177e6ec9249d6ef5b810566cafb0804",
+    "reply_text_hash": "8e1320f0c159531d303944b50eb36aa9aaf4fe1fc6a060b5d20ea63df5530066",
+    "signature": "29bbe440a44e28ecd04d7b0cfa3b939743b60f0d9f6a02d58a3626573e9099adedb188e6799ef38e2c1345506ad6a1a5171d13f13a6ba2d4f9b03c5679f26406",
+    "signing_key_fp": "6f333fd49c9bd92880d32b01bbdb3f59",
+    "timestamp": "2026-09-27T17:26:30.653Z",
+    "type": "reply"
+  },
+  "leaf_hash": "cff50355934470069c7e003b3d2f808e35bbc5a7c5bfe2735fcfbce96cd0dc3e",
+  "timestamp": "2026-09-27T17:26:30.653Z"
+}
