@@ -2,16 +2,9 @@
   "algorithm": "rfc6962",
   "consistency": {
     "algorithm": "rfc6962",
-    "from_root": "33f53d203810096103d2c4b3bc8604ac3155e9aef370b0242a5d703a91d60239",
-    "from_tree_size": 31,
-    "proof": [
-      "48e4a89c77694f40fc0c2def475400790d915c7bd6cb7bcb8a102336a232f768",
-      "a488f21a772fda04e9a4bd6488fae0a7fbbda3581159436a8fbac6db63d70722",
-      "7fe041a505c27b45fa0b291839cb11c8ad60394b41f8e785065b9407902f0045",
-      "10a3e4b7187da8bf7fd0b268ca76629b8ecd7ccea2b76c226d1696a3b45d8454",
-      "4c78ad56d11f75d7b27c9f9860bb0d3a2436cb75e562aeb7c1ef9355366217ef",
-      "d26c87366e0446b149147564a9c6dcdc0ac3bd042a1777a8738919c7c31fb9cc"
-    ],
+    "from_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
+    "from_tree_size": 32,
+    "proof": [],
     "to_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
     "to_tree_size": 32
   },
@@ -60,7 +53,7 @@
     "root_hash": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
     "signature": "217d83e22de0594910bab6b3c5e517be22e4504e080cb75cc9e8ae60c15ba259c107ff116bd4c40152d099db99ac988a39a4e1d48f97a95b55d4096d6a3cc808",
     "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-    "timestamp": "2026-09-28T15:23:48.202Z",
+    "timestamp": "2026-09-28T21:58:16.642Z",
     "tree_size": 32
   },
   "service": "fssa-anonymous-report",
@@ -79,5 +72,5 @@
     "week_starts_on": "monday",
     "week_timezone": "Asia/Taipei"
   },
-  "synced_at": "2026-09-28T15:23:45.905Z"
+  "synced_at": "2026-09-28T21:58:14.535Z"
 }

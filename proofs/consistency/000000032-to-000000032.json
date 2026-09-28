@@ -1,0 +1,8 @@
+{
+  "algorithm": "rfc6962",
+  "from_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
+  "from_tree_size": 32,
+  "proof": [],
+  "to_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
+  "to_tree_size": 32
+}
