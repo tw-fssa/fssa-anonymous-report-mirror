@@ -4,14 +4,16 @@
     "algorithm": "rfc6962",
     "from_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
     "from_tree_size": 32,
-    "proof": [],
-    "to_root": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
-    "to_tree_size": 32
+    "proof": [
+      "eac709131d7e56dd9507d9ebffe757722cb918fdc84216f580634ba3c16de7c8"
+    ],
+    "to_root": "92db5ea71927264a8510bd5bc19d508879dab62cc1e141eddf2f541dda6f83bb",
+    "to_tree_size": 35
   },
   "entries": {
-    "count": 32,
+    "count": 35,
     "first_idx": 1,
-    "last_idx": 32
+    "last_idx": 35
   },
   "keys": [
     {
@@ -50,27 +52,27 @@
   ],
   "privacy": "public-redacted",
   "root": {
-    "root_hash": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
-    "signature": "217d83e22de0594910bab6b3c5e517be22e4504e080cb75cc9e8ae60c15ba259c107ff116bd4c40152d099db99ac988a39a4e1d48f97a95b55d4096d6a3cc808",
+    "root_hash": "92db5ea71927264a8510bd5bc19d508879dab62cc1e141eddf2f541dda6f83bb",
+    "signature": "34015251077ec7f169047eed49747d12792e532d36d03b1dceacae4bce4bcabade315a86ca2442a8ae12567654d8bddf46b74cc13170355e137186173f47f102",
     "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-    "timestamp": "2026-09-30T06:40:25.824Z",
-    "tree_size": 32
+    "timestamp": "2026-09-30T13:39:16.434Z",
+    "tree_size": 35
   },
   "service": "fssa-anonymous-report",
   "size": {
-    "tree_size": 32
+    "tree_size": 35
   },
   "source": "https://report.fssakh.org",
   "stats": {
-    "last_entry_at": "2026-09-28T13:22:04.573Z",
+    "last_entry_at": "2026-09-30T13:12:28.552Z",
     "pending_total": 0,
-    "root_hash": "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd",
-    "submissions_this_week": 2,
-    "submissions_total": 10,
-    "tree_size": 32,
+    "root_hash": "92db5ea71927264a8510bd5bc19d508879dab62cc1e141eddf2f541dda6f83bb",
+    "submissions_this_week": 3,
+    "submissions_total": 11,
+    "tree_size": 35,
     "week_start": "2026-09-27T16:00:00.000Z",
     "week_starts_on": "monday",
     "week_timezone": "Asia/Taipei"
   },
-  "synced_at": "2026-09-30T06:40:23.914Z"
+  "synced_at": "2026-09-30T13:39:14.441Z"
 }
