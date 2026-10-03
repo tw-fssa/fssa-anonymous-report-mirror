@@ -1,7 +1,7 @@
 {
-  "root_hash": "324817f5d6352a5eb3ade62227480b8ffb4c7574b4a15c5f3f9c947d56132a8f",
-  "signature": "adb99495e4fcd77561d2cbdb67178fe19e1bd9be700e10e045b7451a7b6fb5e1f0aa2c618d54e44c3217c83aa33b9a37ffbac56f80fc1898dc6440b4b3025008",
+  "root_hash": "d8bfa34419bacd80ca7b6ea29151eb845bbed34bd5e5dee525ac5b7a1ee0482a",
+  "signature": "ff4d1e70f154decad16fde9e5540f6dbe4421bc73a741f52dcc11b112f4af45576d16ce9eb80b7a94e565079a53de5cd1950c2f0a869d7c6617f51ef10806702",
   "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-  "timestamp": "2026-10-03T00:27:32.412Z",
-  "tree_size": 41
+  "timestamp": "2026-10-03T06:29:24.907Z",
+  "tree_size": 42
 }
