@@ -4,14 +4,19 @@
     "algorithm": "rfc6962",
     "from_root": "67d944b0f74bf981735ce36181a39dd3b5b4f982811cbcfac5a966f15727925c",
     "from_tree_size": 44,
-    "proof": [],
-    "to_root": "67d944b0f74bf981735ce36181a39dd3b5b4f982811cbcfac5a966f15727925c",
-    "to_tree_size": 44
+    "proof": [
+      "cbe9251ef6a3a339cd091487b47a0eeaaafca5df3e01aa3c8801d18b84658700",
+      "92d767d0624b0efb40d267dac512675b4a09436ef9f96b83d3752fae32d3d423",
+      "ebee0047355c811363e496d81b4bb0539c5d77061fbddace3af99e09c7452bf2",
+      "f22e9c765f7a513ed1873f77159c626af3a66ffd309560c5469ea68b6d6492cd"
+    ],
+    "to_root": "25fbec7416359ae85b9ca7f2236f541f7f0af419e45e92b1b60b8a304a77dcd5",
+    "to_tree_size": 45
   },
   "entries": {
-    "count": 44,
+    "count": 45,
     "first_idx": 1,
-    "last_idx": 44
+    "last_idx": 45
   },
   "keys": [
     {
@@ -50,27 +55,27 @@
   ],
   "privacy": "public-redacted",
   "root": {
-    "root_hash": "67d944b0f74bf981735ce36181a39dd3b5b4f982811cbcfac5a966f15727925c",
-    "signature": "1abd54cb449bcc7cd3012399d4946fc1f488fa5ac0a65dc2ddf52cc8415e1c9622dccb7e01b885d374715c724b67308774500790c4fb3f3c105d6557c7974601",
+    "root_hash": "25fbec7416359ae85b9ca7f2236f541f7f0af419e45e92b1b60b8a304a77dcd5",
+    "signature": "79354f6930a605c9aee62db628a60b2875d8d0209639e9f07427f24490e8dd7bf24c0beba131c68af79a7ab0795518aa273913e930c6eb1d17095c450c1e420a",
     "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-    "timestamp": "2026-10-09T07:21:26.927Z",
-    "tree_size": 44
+    "timestamp": "2026-10-09T15:15:58.473Z",
+    "tree_size": 45
   },
   "service": "fssa-anonymous-report",
   "size": {
-    "tree_size": 44
+    "tree_size": 45
   },
   "source": "https://report.fssakh.org",
   "stats": {
-    "last_entry_at": "2026-10-07T16:54:39.501Z",
-    "pending_total": 3,
-    "root_hash": "67d944b0f74bf981735ce36181a39dd3b5b4f982811cbcfac5a966f15727925c",
+    "last_entry_at": "2026-10-09T13:04:21.747Z",
+    "pending_total": 2,
+    "root_hash": "25fbec7416359ae85b9ca7f2236f541f7f0af419e45e92b1b60b8a304a77dcd5",
     "submissions_this_week": 0,
     "submissions_total": 15,
-    "tree_size": 44,
+    "tree_size": 45,
     "week_start": "2026-10-04T16:00:00.000Z",
     "week_starts_on": "monday",
     "week_timezone": "Asia/Taipei"
   },
-  "synced_at": "2026-10-09T07:21:25.043Z"
+  "synced_at": "2026-10-09T15:15:56.246Z"
 }
