@@ -1,9 +1,9 @@
 {
   "algorithm": "rfc6962",
-  "last_synced_at": "2026-10-10T05:47:23.884Z",
+  "last_synced_at": "2026-10-10T12:26:47.870Z",
   "privacy": "public-redacted",
-  "root_hash": "25fbec7416359ae85b9ca7f2236f541f7f0af419e45e92b1b60b8a304a77dcd5",
+  "root_hash": "4d3b4fa850491c2ad9fb6f61e39d748e9cbdac84a946419d8880354e013131b1",
   "service": "fssa-anonymous-report",
   "source": "https://report.fssakh.org",
-  "tree_size": 45
+  "tree_size": 47
 }
