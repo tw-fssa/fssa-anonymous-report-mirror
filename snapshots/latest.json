@@ -53,7 +53,7 @@
     "root_hash": "300fd1e081ce4229781cc39843d0fe2d626932bbdc5b1a009c5789d2412d85b3",
     "signature": "066e9e6c40e0cda63b8116aaa6522152bdd1f26cf6970b750e4123cfd0f9bf33399116f0c6af3d61819eaff3da92479c9bae8c267210350220c4cc6c96450f00",
     "signing_key_fp": "1ac1c1620560a0e390890a39f6bb6496",
-    "timestamp": "2026-10-18T04:26:44.615Z",
+    "timestamp": "2026-10-18T09:33:13.688Z",
     "tree_size": 62
   },
   "service": "fssa-anonymous-report",
@@ -72,5 +72,5 @@
     "week_starts_on": "monday",
     "week_timezone": "Asia/Taipei"
   },
-  "synced_at": "2026-10-18T04:26:42.624Z"
+  "synced_at": "2026-10-18T09:33:11.917Z"
 }
