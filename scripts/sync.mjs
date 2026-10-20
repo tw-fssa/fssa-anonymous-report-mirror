@@ -50,6 +50,8 @@ async function getJson(route) {
     headers: {
       accept: "application/json",
       "user-agent": "tw-fssa-public-mirror/0.2",
+      // GitHub runners are outside Taiwan; this key lets the sync past the edge's non-TW challenge.
+      ...(process.env.MIRROR_SYNC_KEY ? { "x-fssh-mirror-key": process.env.MIRROR_SYNC_KEY } : {}),
     },
   });
   if (!response.ok) {
