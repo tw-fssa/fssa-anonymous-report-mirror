@@ -1,9 +1,12 @@
+// Manual fallback: the mirror is normally updated by the fssh-mirror-push Cloudflare Worker. Run from Taiwan
+// (the site challenges requests from elsewhere), then commit; scripts/verify.mjs checks the result.
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 
 const SOURCE = process.env.SOURCE_API || "https://report.fssakh.org";
-const PAGE_LIMIT = 500;
+// /log/entries pages are fixed at 100 entries and must start at 1, 101, 201, ...
+const PAGE_LIMIT = 100;
 const ALGORITHM = "rfc6962";
 const SERVICE = "fssa-anonymous-report";
 const FORBIDDEN_KEYS = new Set([
@@ -50,8 +53,6 @@ async function getJson(route) {
     headers: {
       accept: "application/json",
       "user-agent": "tw-fssa-public-mirror/0.2",
-      // GitHub runners are outside Taiwan; this key lets the sync past the edge's non-TW challenge.
-      ...(process.env.MIRROR_SYNC_KEY ? { "x-fssh-mirror-key": process.env.MIRROR_SYNC_KEY } : {}),
     },
   });
   if (!response.ok) {
@@ -78,15 +79,14 @@ function assertMirrorSafe(value, location = "$") {
 async function fetchEntries(treeSize) {
   const entries = [];
   for (let from = 1; from <= treeSize;) {
-    const to = Math.min(treeSize, from + PAGE_LIMIT - 1);
-    const page = await getJson(`/log/entries?from=${from}&to=${to}&limit=${PAGE_LIMIT}`);
+    const page = await getJson(`/log/entries?from=${from}`);
     if (!Array.isArray(page.entries)) {
       throw new Error("/log/entries response did not include an entries array");
     }
     entries.push(...page.entries);
-    from = to + 1;
+    from += PAGE_LIMIT;
   }
-  return entries;
+  return entries.filter((entry) => entry.idx <= treeSize);
 }
 
 function assertContiguous(entries, treeSize) {
